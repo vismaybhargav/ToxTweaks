@@ -3,9 +3,9 @@
 	"id": "toxtweaks",
 	"version": "${version}",
 	"name": "ToxTweaks",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A personal mod for Tox.",
 	"authors": [
-		"Me!"
+		"Tox"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -17,6 +17,9 @@
 	"entrypoints": {
 		"main": [
 			"net.vismayb.toxtweaks.ToxTweaks"
+		],
+		"client": [
+			"net.vismayb.toxtweaks.ToxTweaksClient"
 		],
 		"fabric-datagen": [
 			"net.vismayb.toxtweaks.ToxTweaksDataGenerator"
