@@ -13,6 +13,7 @@ public class ToxTweaks implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing: " + MOD_ID);
-		ModItems.registerItems();
+		/*for use on the server, these test items are not required*/
+		//ModItems.registerItems();
 	}
 }
