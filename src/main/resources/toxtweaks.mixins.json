@@ -1,11 +1,14 @@
 {
-	"required": true,
-	"package": "net.vismayb.toxtweaks.mixin",
-	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-		"ExampleMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
+  "required": true,
+  "package": "net.vismayb.toxtweaks.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "InfinityMendingMixin",
+    "MultishotToPiercingMixin",
+    "PiercingToMultishotMixin",
+    "ProtectionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
 	}
 }
