@@ -3,6 +3,7 @@
   "package": "net.vismayb.toxtweaks.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "DamageEnchantmentMixin",
     "InfinityMendingMixin",
     "InfinityTippedArrowMixin",
     "MultishotToPiercingMixin",
